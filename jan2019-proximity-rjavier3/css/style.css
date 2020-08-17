@@ -1,0 +1,165 @@
+header,
+section {
+	width: 960px;
+	margin: 0 auto;
+	line-height: 1.5;
+	font-family: sans-serif;
+}
+
+h1,
+h2,
+h3 {
+	font-size: 48px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+h2 {
+	font-size: 24px;
+}
+
+h3 {
+	font-size: 16px;
+}
+
+
+header .logo,
+header .description {
+	width: 50%;
+	float: left;
+}
+
+header .description {
+	margin-top: 15px;
+}
+
+header p.tagline {
+	font-size: 24px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+header li {
+	float: left;
+	margin-right: 25px;
+}
+
+/********************** Your Code Goes Here ******************/
+html{
+	background-color:grey;
+}
+
+.container{
+	width:960px;
+	margin: 0 auto;
+	height: 3200px;
+}
+
+
+/*header*/
+.logo{
+	margin: 250px 240px 0 240px;
+	text-align:center;
+}
+
+.description{
+	margin:0 240px 10px 240px;
+	text-align:center;
+}
+
+.links{
+	width: 295px;
+	margin:0 auto;
+}
+
+.links li{
+	font-size:14pt;
+	margin-right: 35px;
+}
+
+.links .noMarginLi{
+	margin-right: 0px;
+}
+
+.links a{
+	color:black;
+}
+
+/*main*/
+section{
+	width:330px;
+}
+
+.courseLeft{
+	margin: 200px 70px 0 80px;
+	float:left;
+}
+
+.courseRight{
+	margin: 200px 80px 0 70px;
+	float:left;
+}
+
+section h3{
+	width:165px;
+	float:left;
+	margin-top: 10px;
+}
+main p{
+	float:left;
+	margin-bottom:20px;
+	width:270px;
+}
+.price{
+	float:right;
+	width:50px;
+	text-align: right;
+	margin-bottom: 0;
+	margin-top:10px;
+}
+.courseDes {
+	width:330px;
+}
+
+
+/*main, specials and drinks*/
+.specials{
+	margin:10px 0 10px 0;
+	float:right;
+	width:300px;
+}
+
+.specials p:not(.price){
+	width:240px;
+}
+
+h4{
+	float:left;
+	margin-bottom: 15px;
+	width:230px;
+}
+
+.drinkKind .price{
+	margin-top: 0px;
+	margin-bottom: :15px;
+}
+
+.drinkKind{
+	float:left;
+	margin-bottom: 20px;
+}
+
+
+/*extras*/
+body{
+	width:1080px;
+	height:3330px;
+	background-image: url("../img/menu_background1.jpg");
+	margin:0 auto;
+}
+
+.logo h1{
+	font-family: 'Pacifico', cursive;
+	font-size:44pt;
+}

@@ -1,0 +1,152 @@
+/*colors
+	light: d1d7b5 	hover:#D6B6B6;
+	black: black
+	red:	B42224*/
+
+
+body{
+	background-color: black;
+	background: black url(../images/red_balloons_background.png) fixed top center repeat-x;
+	background-size: 350px 675px;
+	font-family: 'Anton', sans-serif;
+}
+
+.container{
+	width:100%;
+	height: 100%;
+	margin:0 auto;
+	background: url(../images/home-page/banner-balloon.png) fixed top center no-repeat;
+		float:left;
+}
+
+
+
+/*general*/
+h1{
+	font-size:44px;
+	font-weight: bolder;
+	color:black;
+}
+
+h2{
+	font-size: 30px;
+}
+
+p{
+	font-size:16px;
+	color:black;
+}
+
+
+
+
+
+									/*headings*/
+
+header{
+	width:100%;
+	height: 0;
+	margin-bottom:800px;
+}
+nav ul{
+	background-color: white;
+	width:400px;
+	margin:12px 0 0 12px;
+}
+nav li{
+	float:left;
+	margin-top: 12px;
+}
+nav a {
+	padding: 0px 17px;
+	text-decoration: none;
+	color: #d1d7b5;
+}
+nav a:hover{
+	background-color:#D6B6B6;
+	color:black;
+}
+.logo{
+	background-color: white;
+	width:40px;
+	height: 40px;
+}
+.logodiv a{
+	float: right;
+	padding: 0;
+	margin-right: 12px;
+}
+.logo:hover{
+	background-color:#D6B6B6;
+}
+
+
+									/*body*/
+.pennywise{
+	width: 100%;
+	height:600px;
+	background:  #d1d7b5;	
+	background-size: cover;
+}
+.pennywise div{
+	width:500px;
+	height:100px;
+	float: right;
+	margin: 250px 200px 0 0;
+}
+
+
+.community{
+	width: 100%;
+	height:600px;
+	background: black;
+}
+.community div{
+	width:300px;
+	height:100px;
+	float: left;
+	margin: 200px 0 0 300px;
+}
+.community div h1{
+	color:#d1d7b5;
+}
+.community div p{
+	color:#d1d7b5;
+}
+
+
+
+.about-us{
+	width: 100%;
+	height:600px;
+	background:  #d1d7b5;	
+}
+.about-us div{
+	width:300px;
+	height:100px;
+	float: right;
+	margin: 200px 300px 0 0;
+}
+
+
+
+
+/*footer*/
+footer{
+	width: 100%;
+	height:500px;
+	background-color: black;
+	color: #d1d7b5;
+}
+
+
+
+
+/*a href's*/
+.pennywise:hover, .about-us:hover{
+	background-color: #D6B6B6;
+}
+
+.community:hover{
+	background-color: #301212;
+}

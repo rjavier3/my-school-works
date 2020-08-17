@@ -1,0 +1,41 @@
+
+/*navigation heading*/
+nav{
+    top:0;
+	position: fixed;
+	width: 100%;
+	height: 66px;
+	background-color: black;
+}
+nav ul{
+	background-color: white;
+	width:400px;
+	margin:12px 0 0 12px;
+}
+nav li{
+	float:left;
+	margin-top: 12px;
+}
+nav a {
+	font-family: arial;
+	padding: 0px 17px;
+	text-decoration: none;
+	color: white;
+}
+nav a:hover{
+	background-color:#D6B6B6;
+	color:black;
+}
+.logo{
+	background-color: white;
+	width:40px;
+	height: 40px;
+}
+.logodiv a{
+	float: right;
+	padding: 0;
+	margin-right: 12px;
+}
+.logo:hover{
+	background-color:#D6B6B6;
+}

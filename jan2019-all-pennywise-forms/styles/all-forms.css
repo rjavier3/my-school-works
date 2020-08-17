@@ -1,0 +1,185 @@
+body{
+	background-color: black;
+	background: black url(../images/red_balloons_background.png) fixed top center repeat-x;
+	background-size: 350px 675px;
+	font-size: 100%;
+}
+
+.container{
+	background-color: #c9d4b4;
+	width: 100%;
+	max-width: 2400px;
+	min-width: 1440px;
+	margin:0 auto;
+	margin-top: 70px;
+	height:100%;
+	float:left;
+}
+
+
+
+
+/*generals*/
+h1 {
+	padding-top: 70px;
+	font-family: 'Anton', sans-serif;
+	font-size: 63px;
+	color:black;
+	font-weight: bold;
+	line-height: 1.3;
+}
+
+h2{
+	font-family: 'Anton', sans-serif;
+	font-size: 32px;
+	color:black;
+	font-weight: bold;
+}
+h3{
+	font-family: play;
+	font-size: 20px;
+	color: grey;
+}
+p{
+	font-family: play;
+	font-size: 16px;
+	line-height: 23.4px;
+	color:black;
+}
+section{
+	width: 50%;
+	padding: 40px 5% 40px 5%;
+	margin:0 20% 20px 20%;
+	background-color: #d1d7b5;
+}
+
+
+
+/*images*/
+.hor{
+	width: 100%;
+}
+.sqr{
+	width: 100%;
+}
+.ver{
+	width: 100%;
+}
+.left-img-div{
+	width: 48%;
+}
+figcaption{
+	font-size: 14px;
+	font-family: play;
+	opacity: .7;
+}
+figcaption a{
+	color:black;
+}
+
+/*floats*/
+.fleft{
+	float:left;
+}
+.fright{
+	float:right;
+}
+
+
+/*p*/
+.par{
+	width: 47.5%;
+	margin-right:5%;
+}
+.par p{
+	margin-top: 23.4px;
+}
+.parlast{
+	margin-right: 0;
+}
+/*p for vertical img*/
+.parright{
+	width: 47.5%;
+}
+.parright p{
+	margin-top: 23.4px;
+}
+
+
+/*h*/
+.long{
+	width: 100%;
+}
+
+
+/*content h2*/
+.black{
+	height: 60px;
+}
+.black h2{
+	color:black;
+}
+
+
+
+/*contact form*/
+.contact-form{
+	margin-top: 20px;
+	width: 47.5%;
+}
+.theinput{
+	width: 100%;
+	height:20px;
+	margin-top:10px;
+	background-color: #d1d7b5;
+}
+
+.themessage{
+	width:100%;
+	height:100px;
+	margin-top:10px;
+	background-color: #d1d7b5;
+	resize: none;
+}
+.submit{
+	float: left;
+	width: 47.5%;
+	margin-right: 5%;
+	margin-top: 5px;
+	background-color: grey;
+	color:white;
+}
+.thebutton{
+	width: 47.5%;
+	margin-top: 5px;
+	background-color: grey;
+	color:white;
+}
+.labelinput{
+	font-size: 14px;
+}
+
+
+/*container for sqr img*/
+.sqr-container-top{
+	float:left;
+	width: 100%;
+}
+
+.sqr-container-bot{
+	float: right; 
+	width: 100%;
+}
+
+
+/*a (links)*/
+section a{
+	text-decoration: none;
+}
+section a:hover{
+	color:red;
+}
+
+.copyright{
+	margin-top: 20px;
+}
