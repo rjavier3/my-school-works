@@ -43,6 +43,6 @@
     "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
-    "mdbootstrap": "^4.19.1"
+    "mdbreact": "^5.0.1"
   }
 }
