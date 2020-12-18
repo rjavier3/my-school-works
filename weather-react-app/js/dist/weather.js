@@ -1,4 +1,4 @@
-const API_KEY = '52fc99a956494caea7b135022179925e';
+const API_KEY = 'deee4555ff82a1b14e0655f0167b5871';
 const ENDPOINT = 'https://api.openweathermap.org/data/2.5/';
 
 const Weather = function (options) {

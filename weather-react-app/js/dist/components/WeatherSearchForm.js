@@ -1,3 +1,4 @@
+import React from 'react';
 import { Weather } from '../weather.js';
 
 const WeatherSearchForm = props => {
