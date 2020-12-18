@@ -6,7 +6,7 @@
   "scripts": {
     "babel": "npx babel js/src/ --out-dir js/dist/",
     "build-watch": "npx babel js/src/ --out-dir js/dist/ --watch",
-    "lint": "npx eslint js/main.es6.js",
+    "lint": "npx eslint js/src/main.js",
     "build-sass": "npx node-sass sass/extra.scss css/extra.css",
     "test": "npx jest",
     "test-suite": "npm run lint && npm run test",
