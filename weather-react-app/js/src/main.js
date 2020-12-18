@@ -5,6 +5,9 @@ import WeatherSearchForm from './components/WeatherSearchForm.js';
 import WeatherDisplay from './components/WeatherDisplay.js';
 import ForecastList from './components/ForecastList.js';
 
+import '../../css/extra.css';
+import '../../css/main.css';
+
 const App = () => {
   const [weatherData, setWeatherData] = React.useState({});
 
